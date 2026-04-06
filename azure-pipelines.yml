@@ -7,6 +7,8 @@ trigger:
 - main
 
 pool: test_agent
+
+steps:
 - task: Maven@4
   inputs:
     mavenPomFile: 'pom.xml'
