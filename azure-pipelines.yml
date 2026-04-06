@@ -11,7 +11,7 @@ pool: test_agent
 steps:
 - task: Maven@4
   inputs:
-    mavenPomFile: 'pom.xml'
+    mavenPomFile: 'DO/demo1/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkArchitectureOption: 'x64'
